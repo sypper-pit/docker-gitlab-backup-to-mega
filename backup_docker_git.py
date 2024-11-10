@@ -83,7 +83,7 @@ class BackupManager:
 # Configuration
 BACKUP_CONFIG = {
     'backup_dir': '/var/lib/docker/volumes/gitlab_gitlab-data/_data/backups/',
-    'cloud_dir': '/backup/gitlab/backups',
+    'cloud_dir': '/backup/gitlab/',
     'local_limit': 5,
     'cloud_limit': 3
 }
